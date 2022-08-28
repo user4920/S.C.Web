@@ -1,0 +1,46 @@
+.line{
+  width: auto;
+  height: 1.5px;
+  margin-right: 25%;
+  border: none;
+  background-color: lightgray;
+  
+}
+.box1{
+  margin-left: 15%;
+  width: auto;
+  height: auto;
+}
+.box2{
+  margin-left: 15%;
+  width: auto;
+  height: auto;
+}
+.box3{
+  margin-left: 15%;
+  width: auto;
+  height: auto;
+}
+.part{
+  font-size: xx-large;
+  font-weight: 500;
+}
+.title1{
+  font-weight: bold
+}
+.btn{
+  width: 60px;
+  height: 25px;
+  margin-left: 15%;
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: lightgray;
+
+}
+.link{
+  text-decoration-line: none;
+}
+.contents{
+  margin-left: 2%;
+}
