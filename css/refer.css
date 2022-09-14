@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Imprima&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Inter&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+}
+
+ul,
+li {
+  list-style: none;
+}
+.refer_main a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.refer-nav {
+  width: 890px;
+  padding-top: 54px;
+  margin: 0 auto;
+}
+.refer-title {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 50px;
+  line-height: 63px;
+}
+.search-container {
+  display: inline-block;
+  margin-left: 428px;
+  width: 100px;
+}
+#search_box {
+  position: relative;
+  top: -15px;
+  padding: 0;
+  width: 220px;
+  height: 32px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+#enter_button {
+  position: relative;
+  top: -7px;
+  margin-left: 12px;
+  width: 62px;
+  height: 32px;
+  border: 1px solid #000000;
+}
+.table-list-wrap {
+  width: 890px;
+  margin: 0 auto;
+  padding-top: 29px;
+}
+.table-list {
+  width: 100%;
+}
+.table-list > div {
+  border-bottom: 1px solid #999;
+  font-size: 0;
+}
+.table-list > div.top {
+  border-bottom: 2px solid #646464;
+}
+.table-list > div:last-child {
+  border-bottom: 2px solid #646464;
+}
+.table-list > div > div {
+  display: inline-block;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 16px;
+
+  font-family: 'Inter';
+  font-style: normal;
+}
+.table-list > div.top > div {
+  font-weight: 700;
+}
+.table-list .num {
+  width: 10%;
+}
+.table-list .title {
+  width: 60%;
+  text-align: left;
+}
+.table-list .top .title {
+  text-align: center;
+}
+.table-list .writer {
+  width: 15%;
+}
+.table-list .date {
+  width: 15%;
+}
+.table-page {
+  padding-top: 17px;
+}
+.table-page .btn {
+  display: inline-block;
+  width: 295px;
+  padding: 4px 0;
+  text-align: center;
+  margin-left: 258px;
+  font-size: 20px;
+}
+.table-page .page-writing {
+  display: inline-block;
+  width: 73px;
+  padding: 4px 0;
+  text-align: center;
+  margin-left: 258px;
+  font-size: 14px;
+  position: relative;
+  top: -3px;
+
+  background-color: rgb(228 226 226);
+}

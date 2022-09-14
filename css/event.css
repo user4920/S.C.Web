@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Imprima&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Inter&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  white-space: inherit;
+}
+
+ul,
+li {
+  list-style: none;
+}
+.event-nav a {
+  text-decoration: none;
+  color: inherit;
+}
+.event-nav {
+  width: 1290px;
+  margin: 0 auto;
+  margin-top: 54px;
+}
+.event-title {
+  display: inline-block;
+  margin-left: 536px;
+  width: 218px;
+  text-align: center;
+
+  font-family: 'IM FELL Double Pica SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  letter-spacing: 0.05em;
+}
+.event-add {
+  display: inline-block;
+  position: relative;
+  left: -10px;
+  top: -2px;
+
+  font-weight: 400;
+  font-size: 50px;
+  color: #acacac;
+}
+.event-btn {
+  display: inline-block;
+  margin-left: 165px;
+}
+.scheduled,
+.ongoing,
+.finish {
+  display: inline-block;
+  padding-left: 20px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.search-container {
+  width: 1290px;
+  margin: 0 auto;
+  margin-top: 17px;
+  text-align: end;
+}
+#search_box {
+  padding: 0;
+  width: 220px;
+  height: 32px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+#enter_button {
+  position: relative;
+  top: 8px;
+  margin-left: 12px;
+  width: 62px;
+  height: 32px;
+  border: 1px solid #000000;
+}
+.flex-container {
+  width: 1290px;
+  height: 678px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: space-around;
+  margin: 0 auto;
+}
+.flex-item {
+  background: #d9d9d9;
+  width: 292.5px;
+  height: 292.5px;
+}
