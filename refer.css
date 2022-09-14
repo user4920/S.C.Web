@@ -5,7 +5,7 @@
 * {
   padding: 0;
   margin: 0;
-  white-space: inherit;
+  white-space: nowrap;
 }
 
 ul,
@@ -31,6 +31,7 @@ li {
 .search-container {
   display: inline-block;
   margin-left: 428px;
+  width: 100px;
 }
 #search_box {
   position: relative;
@@ -42,12 +43,11 @@ li {
   border-radius: 5px;
 }
 #enter_button {
-  white-space: inherit;
-  position: absolute;
+  position: relative;
+  top: -7px;
+  margin-left: 12px;
   width: 62px;
   height: 32px;
-  top: 188px;
-  margin-left: 12px;
   border: 1px solid #000000;
 }
 .table-list-wrap {
