@@ -1,53 +1,20 @@
-* {
-  margin: 0;  /* 마진 리셋 */
-  padding: 0;  /* 패딩 리셋 */
-  box-sizing: border-box;  /* 박스 영역은 테두리까지 */
-  font-family: 'Inder';
-  white-space: nowrap;
-}
-
-a {
-  text-decoration: none;  /* 텍스트 링크 없애기 */
-  color: inherit; /* 링크의 색상 제거 */
-}
-
-ul {
-  list-style: none;
-}
-
-#contents {
-  width: 100%;
-}
-
-/******************************/
-/* 헤더 영역 - 로고와 내비게이션 */
-/*****************************/
-
-/******************************/
 /*         메인 영역          */
-/****************************/
-
-#main {
-  width: 70%;
-  margin: 0 auto;
-}
-
-#main h1 {
+main h1 {
   display: inline-block;
   margin: 10px;
 
   font-family: 'Noto Sans KR';
   font-weight: 400;
-  font-size: 50px;
+  font-size: 50px;;
   letter-spacing: 0.05em;
 
-  color: #000000;
+  color: black;
 }
 
 label {
   display: inline-block;
   float: left;
-  width: 150px;
+  width: 100px;
   height: 42px;
   margin: 15px;
 
@@ -57,22 +24,9 @@ label {
   text-align: right;
 }
 
-input {
+input, textarea {
   width: 70%;
-  min-width: 500px;
+  min-width: 400px;
   height: 45px;
   margin: 15px;
-}
-
-textarea {
-  width: 70%;
-  min-width: 500px;
-  height: 450px;
-  margin: 15px;
-}
-
-button {
-  width: 50px;
-  height: 25px;
-  margin-left: 15px;
 }

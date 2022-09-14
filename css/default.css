@@ -1,0 +1,12 @@
+* {
+  font-family: 'Inder';
+  white-space: nowrap;
+}
+
+body {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
