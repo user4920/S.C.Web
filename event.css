@@ -5,8 +5,17 @@
 * {
   margin: 0;
   padding: 0;
+  white-space: inherit;
 }
 
+ul,
+li {
+  list-style: none;
+}
+.event-nav a {
+  text-decoration: none;
+  color: inherit;
+}
 .event-nav {
   width: 1290px;
   margin: 0 auto;
@@ -61,10 +70,11 @@
 }
 #enter_button {
   position: relative;
-  top: 10px;
+  top: 8px;
   margin-left: 12px;
   width: 62px;
   height: 32px;
+  border: 1px solid #000000;
 }
 .flex-container {
   width: 1290px;

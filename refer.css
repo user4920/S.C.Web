@@ -2,76 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Inter&display=swap');
 
-.tophead {
-  width: 100%;
-  height: 10%;
-  margin-left: 20px;
-  display: flex;
-}
-.logo {
-  width: auto;
-  height: auto;
-  margin-left: 15px;
-  font-size: xx-large;
-  font-weight: 500;
-}
-.nav1 {
-  width: 100%;
-  height: 10%;
-  padding: 10px;
-}
-ul {
-  list-style: none;
-}
-li {
-  margin: 15px;
-  float: left;
-}
-.menu {
-  margin-left: 30px;
-  font-size: larger;
-  font-weight: 500;
-}
-.menu2 {
-  position: absolute;
-  left: 85%;
-  margin-top: 25px;
-  font-size: 15px;
-  font-weight: 500;
-}
-.menu3 {
-  position: absolute;
-  left: 92%;
-  margin-top: 25px;
-  font-size: 15px;
-  font-weight: 500;
-}
-.link1 {
-  text-decoration-line: none;
-  color: black;
-}
-.link2 {
-  text-decoration-line: none;
-  color: #737373;
-}
-.mainn li a:hover {
-  color: #ff0000;
-}
-.comu {
-  position: absolute;
-  left: 36.5%;
-  top: 13%;
-  opacity: 0;
-}
-.mainn:hover .comu {
-  opacity: 1;
+* {
+  padding: 0;
+  margin: 0;
+  white-space: inherit;
 }
 
 ul,
 li {
   list-style: none;
 }
-a {
+.refer_main a {
   text-decoration: none;
   color: inherit;
 }
@@ -101,11 +42,13 @@ a {
   border-radius: 5px;
 }
 #enter_button {
+  white-space: inherit;
   position: absolute;
   width: 62px;
   height: 32px;
-  top: 174px;
+  top: 188px;
   margin-left: 12px;
+  border: 1px solid #000000;
 }
 .table-list-wrap {
   width: 890px;
